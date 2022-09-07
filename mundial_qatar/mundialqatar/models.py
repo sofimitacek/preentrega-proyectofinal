@@ -2,6 +2,7 @@ from django.db import models
 
 class Seleccion(models.Model):
     pais = models.CharField(max_length=128)
+    grupo = models.CharField(max_length=3)
 
 
 class Estadio(models.Model):
