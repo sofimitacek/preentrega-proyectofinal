@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from mundial_qatar.mundialqatar.views import probandotemplate
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('probandotemplate/', probandotemplate)
 ]
