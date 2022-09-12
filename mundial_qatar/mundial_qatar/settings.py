@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mundialqatar.apps.MundialqatarConfig'
+    'Selecciones'
+    'Arbitros'
+    'Estadios'
 ]
 
 MIDDLEWARE = [

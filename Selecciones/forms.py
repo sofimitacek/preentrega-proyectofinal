@@ -10,7 +10,7 @@ class Player_form (forms.Form):
     height= forms.FloatField()
     age= forms.FloatField()
 
-class Coachs_Staff (forms.Form):
+class Coachs_Staff_form (forms.Form):
     first_name= forms.CharField(max_length=30)
     second_name= forms.CharField(max_length=30)
     age= forms.FloatField()
